@@ -10,6 +10,7 @@ include(":OlmSwapper")
 include(":OneClick")
 include(":ExtUtils")
 include(":AutoClicker")
+include(":inferno")
 
 for (project in rootProject.children) {
     project.apply {
