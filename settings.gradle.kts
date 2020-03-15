@@ -11,6 +11,7 @@ include(":OneClick")
 include(":ExtUtils")
 include(":AutoClicker")
 include(":inferno")
+include(":theatre")
 
 for (project in rootProject.children) {
     project.apply {
